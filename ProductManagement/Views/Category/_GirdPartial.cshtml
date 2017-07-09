@@ -1,0 +1,47 @@
+﻿@model IEnumerable<Models.Model.CategoryViewModel>
+@{
+    ViewBag.Title = "Category";
+}
+
+
+
+@section Scripts {
+    <script src="~/Scripts/bootbox.min.js"></script>
+    <script>
+        function Xoa(ID) {
+            bootbox.confirm({
+                size: "small",
+                message: "Do you want to delete?",
+                callback: function (result) {
+                    if (result == true) {
+                        tr = $(this).parents("tr");// tim <tr> chua <img> bi click
+                        $.ajax({
+                            method: 'POST',
+                            url: '/Category/Delete',
+                            data: { id: ID },
+                            success: function (Success) {
+                                if (Success.Message != null) {
+                                    tr.hide(1000);
+                                    bootbox.alert({
+                                        message: "Delete successfully!",
+                                        size: 'small'
+                                    });
+                                    location.reload();
+                                }
+                                else {
+                                    bootbox.alert({
+                                        message: "Unsuccessfully!",
+                                        size: 'small'
+                                    });
+                                }
+
+                            }
+                        })
+                    }
+                }
+            });
+        };
+    </script>
+}
+
+

@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron" style="text-align: center">
+    <h1>PRODUCT MANAGERMENT</h1>
+</div>
+
+<div class="row" style="margin-top: 60px; margin-bottom: 20px;">
+    <div class="col-md-4" style="height: 250px;">
+        <a href="@Url.Action("Index", "Category")" class="btn btn-info" style="width: 100%; height: 100%; background-image: url('../../Content/Img/All-512.png');background-repeat:no-repeat;
+            background-size:contain;
+            background-position:center;">
+        </a>
+    </div>
+    <div class="col-md-4" style="height: 250px;">
+        <a href="@Url.Action("Index", "Item")" class="btn btn-info" style="width: 100%; height: 100%; background-image: url('../../Content/Img/add-item-icon.png');background-repeat:no-repeat;
+            background-size:contain;
+            background-position:center;">
+        </a>
+    </div>
+    <div class="col-md-4" style="height: 250px;">
+        <a href="@Url.Action("Index", "Measure")" class="btn btn-info" style="width: 100%; height: 100%; background-image: url('../../Content/Img/Size.png');background-repeat:no-repeat;
+            background-size:contain;
+            background-position:center;">
+        </a>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-4" style="text-align:center">
+        <label>CATEGORY</label>
+    </div>
+    <div class="col-md-4" style="text-align:center">
+        <label>ITEM</label>
+    </div>
+    <div class="col-md-4" style="text-align:center">
+        <label>MESURE</label>
+    </div>
+</div>

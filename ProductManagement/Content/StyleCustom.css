@@ -1,0 +1,148 @@
+﻿
+.tableData td {
+    border: 1.5px dashed #ddd !important;
+    border-collapse: separate !important;
+}
+
+.headerTable {
+    background-color: #f1f1f1;
+}
+
+    .headerTable th {
+        text-align: center;
+    }
+
+.btn-action {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+    .btn-action > ul {
+        margin: 0;
+        padding: 0;
+    }
+
+        .btn-action > ul > li {
+            list-style: none;
+            display: inline-block;
+        }
+
+.headerTitle {
+    display: block;
+    margin: 0;
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+    .headerTitle li:first-child {
+        padding-left: 0;
+    }
+
+    .headerTitle li {
+        display: inline-block;
+        padding-right: 10px;
+        line-height: 28px;
+        color: #666;
+        font-style: italic;
+        font-size: .915em;
+        font-weight: 600;
+    }
+
+        .headerTitle li:after {
+            content: "//";
+            color: #cecece;
+            padding-left: 15px;
+        }
+
+        .headerTitle li:last-child:after {
+            content: " ";
+            color: #cecece;
+            padding-left: 15px;
+        }
+
+        .headerTitle li a,
+        .headerTitle li a:visited {
+            line-height: 28px;
+            color: #666;
+            font-style: italic;
+            font-weight: 600;
+        }
+
+.lblRequirement {
+    color: Red;
+    font-weight: bold;
+}
+
+.inputForm {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #fafafa;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+ table.inputForm > tbody > tr > td {
+        padding: 5px;
+    }
+
+
+ .field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+
+.validation-summary-errors
+{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 90%;
+    color: #ff0000;
+    margin: 10px 0;
+    border: 1px solid #ff0000;
+    padding: 15px 15px 10px 15px;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors ul
+{
+    padding: 0px 0px 0px 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}
+
+.success {
+     color: #4ba74b;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 5px; 
+}
+
+    .success p {
+        margin-top: 4px;
+        margin-bottom: -3px;
+    }
+
+    
+.error {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 90%;
+    color: #ff0000;
+    margin: 10px 0;
+    border: 1px solid #ff0000;
+    padding: 15px 15px 10px 15px;
+    background-color: #ffeeee;
+}

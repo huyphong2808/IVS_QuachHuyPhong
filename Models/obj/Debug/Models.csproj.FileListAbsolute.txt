@@ -1,0 +1,4 @@
+C:\Users\qhp28\Documents\visual studio 2015\Projects\IVS_Fresher_QuachHuyPhong\Models\bin\Debug\Models.dll
+C:\Users\qhp28\Documents\visual studio 2015\Projects\IVS_Fresher_QuachHuyPhong\Models\bin\Debug\Models.pdb
+C:\Users\qhp28\Documents\visual studio 2015\Projects\IVS_Fresher_QuachHuyPhong\Models\obj\Debug\Models.dll
+C:\Users\qhp28\Documents\visual studio 2015\Projects\IVS_Fresher_QuachHuyPhong\Models\obj\Debug\Models.pdb
